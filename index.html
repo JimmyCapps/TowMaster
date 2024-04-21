@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle and Caravan Selector</title>
+</head>
+<body>
+    <h1>Vehicle and Caravan Selector</h1>
+    <form id="vehicleForm">
+        <label for="makeDropdown">Select a vehicle make:</label>
+        <select id="makeDropdown">
+            <option value="">Select a make</option>
+        </select>
+        <br>
+        <label for="modelDropdown">Select a vehicle model:</label>
+        <select id="modelDropdown">
+            <option value="">Select a model</option>
+        </select>
+        <br>
+        <label for="yearDropdown">Select a vehicle year:</label>
+        <select id="yearDropdown">
+            <option value="">Select a year</option>
+        </select>
+        <br>
+        <button type="submit" id="submitButton" style="display: none;">Submit</button>
+    </form>
+    <div id="vehicleSpecs"></div>
+    <br>
+    <div id="suitableCaravans"></div>
+    <script src="main.js"></script>
+</body>
+</html>

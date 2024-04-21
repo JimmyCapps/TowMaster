@@ -1,0 +1,26 @@
+{
+    "caravans": [
+      {
+        "make": "Jayco",
+        "model": "Expanda",
+        "tareWeight": "1602 kg",
+        "grossWeight": "1602 kg",
+        "towBallWeight": "150 kg"
+      },
+      {
+        "make": "Avida",
+        "model": "Emerald",
+        "tareWeight": "1600 kg",
+        "grossWeight": "2100 kg",
+        "towBallWeight": "160 kg"
+      },
+      {
+        "make": "Coromal",
+        "model": "Pioneer",
+        "tareWeight": "1700 kg",
+        "grossWeight": "2200 kg",
+        "towBallWeight": "170 kg"
+      }
+    ]
+  }
+  
